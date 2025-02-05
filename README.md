@@ -6,9 +6,9 @@
 
 `javac *.java`
 
-`jar -cfe clinic-management.jar ClinicManagementSystem *.class`
+`jar -cfe store-management.jar App *.class`
 
-`java -jar clinic-management.jar`
+`java -jar store-management.jar`
 
 
 ## Exercise-2: Use @Configuration, @Bean, and context

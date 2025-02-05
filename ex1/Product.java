@@ -1,5 +1,3 @@
-package com.mystore.app;
-
 class Product {
     
     private int id;
