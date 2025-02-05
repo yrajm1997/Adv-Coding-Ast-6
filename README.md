@@ -34,7 +34,22 @@ This assignment consist of 3 exercises.
 
 ---
 
-## Exercise-1: Create jar files and execute it
+## Exercise-1: 
+### Create and Execute a JAR File for the Provided Java Application Code
+
+#### Background:
+The provided application code consists of three Java classes: `App.java`, `Product.java`, and `Barcode.java`. The task is to package the code into a JAR (Java Archive) file using the jar command-line tool (without using Maven) and later execute the JAR file to ensure that the program runs as expected.
+
+#### Objectives:
+1. Compile the Java Files:
+   - Compile the provided Java files into `.class` files using the `javac` command.
+2. Create a JAR File:
+   - Use the `jar` command to package the `.class` files into a JAR file. If needed, add a proper MANIFEST.MF file to specify the entry point of the application.
+3. Verify the Contents of the JAR File:
+   - After creating the JAR file, verify its contents by listing the files inside.
+4. Run the JAR File:
+   - After creating the JAR file, execute it using the `java -jar` command.
+5. Take screenshots of commands executed and put it inside SubmissionImages folder
 
 ---
 
@@ -69,6 +84,7 @@ Currently, the application is creating `Product` objects manually within the `Ap
 #### Deliverables:
 - **AppConfig.java**: A configuration class that defines `Product` beans.
 - **App.java**: The main application class that uses Spring to manage the `Product` beans.
+- Take screenshots of commands executed and put it inside SubmissionImages folder
 
 #### Expected Outcome:
 When the application is run, it should output the `Product` objects created by Spring, similar to the original approach, but now managed by Spring's IoC container.
@@ -115,6 +131,7 @@ The provided code contains a basic application where `Product` and `Barcode` obj
 - **Product.java**: Updated to be a Spring component with injected dependencies.
 - **Barcode.java**: Updated to be a Spring component if necessary.
 - **pom.xml**: The necessary Spring dependencies to run the application.
+- Take screenshots of commands executed and put it inside SubmissionImages folder
 
 ---
 
