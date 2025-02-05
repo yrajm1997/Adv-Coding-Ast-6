@@ -34,7 +34,7 @@ This assignment consist of 3 exercises.
 
 ---
 
-## Exercise-1: 
+## Exercise-1:
 ### Create and Execute a JAR File for the Provided Java Application Code
 
 #### Background:
