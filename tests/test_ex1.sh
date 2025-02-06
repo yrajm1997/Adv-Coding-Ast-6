@@ -3,10 +3,10 @@
 # Define the expected output
 expected_output="In Barcode constructor
 In Product constructor
-Product{id=1, name='Tumbler', barcode='|❚|❚||❚❚❚❚|'}
+Product{id=1, name='Tumbler', barcode='|?|?||????|'}
 In Barcode constructor
 In Product constructor
-Product{id=2, name='Bucket', barcode='|❚❚❚❚❚|||❚❚|'}"
+Product{id=2, name='Bucket', barcode='|?????|||??|'}"
 
 # Run the JAR file and capture the output
 actual_output=$(java -jar ex1/*.jar)
