@@ -1,12 +1,13 @@
 #!/bin/bash
 
 # Define the expected output
-expected_output="In Product constructor
-Product{id=1, name='Tumbler'}
-Product{id=2, name='Bucket'}"
+expected_output="In Barcode constructor
+In Product constructor
+Product{id=1, name='Tumbler', barcode='|?|?||????|'}
+Product{id=2, name='Bucket', barcode='|?????|||??|'}"
 
 # Run the JAR file and capture the output
-cd ex2 && mvn clean install
+cd ex3_soln && mvn clean install
 actual_output=$(java -jar target/store-management-1.0-SNAPSHOT.jar)
 
 # Compare the output
