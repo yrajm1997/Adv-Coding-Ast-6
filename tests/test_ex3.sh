@@ -7,7 +7,7 @@ Product{id=1, name='Tumbler', barcode='|?|?||????|'}
 Product{id=2, name='Bucket', barcode='|?????|||??|'}"
 
 # Run the JAR file and capture the output
-cd ex3_soln && mvn clean install
+cd ex3 && mvn clean install
 actual_output=$(java -jar target/store-management-1.0-SNAPSHOT.jar)
 
 # Compare the output
