@@ -48,7 +48,8 @@ The provided application code consists of three Java classes: `App.java`, `Produ
 3. Verify the Contents of the JAR File:
    - After creating the JAR file, verify its contents by listing the files inside.
 4. Run the JAR File:
-   - After creating the JAR file, execute it using the `java -jar` command.
+   - After creating the JAR file, execute it using the `java -jar` command. 
+   - Commit and push the JAR file in the GitHub repository.
 5. Take screenshots of commands executed and put it inside SubmissionImages folder
 
 ---
