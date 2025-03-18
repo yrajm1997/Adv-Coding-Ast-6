@@ -43,7 +43,7 @@ To successfully complete this assignment, ensure you have the following:
     *   **One orderer organization** with a single orderer node.
     *   Each peer organization should have **at least one peer node**.
 
-### 2. Implement Chaincode for ERC20-like Token [3 Marks]
+### 2. Implement Chaincode for ERC20-like Token [2 Marks]
 
 *   Create a **chaincode in Go** for token operations similar to an ERC20 token.
 *   The chaincode should support the following operations:
@@ -56,7 +56,7 @@ To successfully complete this assignment, ensure you have the following:
     *   **Collateral Handling (`AddCollateral`)**: Optionally, borrowers can provide collateral for secured loans.
     *   **Regulatory Audits (`GetLoanHistory`)**: Regulators can view the loan history for compliance checks.
 
-### 3. Develop a Loan Management Portal
+### 3. Develop a Loan Management Portal [2 Marks]
 
 *   Build a **web/api-based portal** for lenders and borrowers.
 *   The portal should:
@@ -66,7 +66,7 @@ To successfully complete this assignment, ensure you have the following:
     *   Implement role-based authentication (borrowers, lenders, and regulators).
     *   Integrate with Fabric REST APIs to fetch ledger data.
 
-### 4. Deploy and Test the Lending System
+### 4. Deploy and Test the Lending System [2 Marks]
 
 *   Deploy the Fabric network and install chaincode on peers.
 *   Run test transactions using CLI & Fabric SDK.
@@ -77,7 +77,7 @@ To successfully complete this assignment, ensure you have the following:
     *   User A fails to repay in time, and the system marks the loan as defaulted.
 *   Ensure data consistency across all peers.
 
-### 5. Query and Validate Ledger Data
+### 5. Query and Validate Ledger Data [2 Marks]
 
 *   **Query blockchain ledger to verify**:
     *   Loan approval and disbursement transactions.
